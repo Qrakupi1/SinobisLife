@@ -3,6 +3,16 @@
 	"EngineAssociation": "5.0",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "SinobisLife",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"NinjaCharacter"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "Niagara",
@@ -16,6 +26,11 @@
 				"Mac",
 				"Linux"
 			]
+		},
+		{
+			"Name": "NinjaCharacter",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/d91461c6f5544d118198d6acaddb48e8"
 		}
 	]
 }
